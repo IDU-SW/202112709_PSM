@@ -1,9 +1,11 @@
 const { Book, prepareBook } = require("./Book");
+const { Admin, prepareAdmin } = require("./Admin");
 
 function initialize() {
     return new Promise( (res, rej) => {
         const tasks = [
-            prepareBook()
+            prepareBook(),
+            prepareAdmin()
         ];
         for (const isSuccess in tasks) {
             if (!isSuccess) rej("Failed to prepare DB");
@@ -14,5 +16,6 @@ function initialize() {
 
 module.exports = {
     Book,
+    Admin,
     initDB: initialize
 };
