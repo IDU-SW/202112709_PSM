@@ -1,4 +1,4 @@
 module.exports = {
     indexRouter: require("./IndexRouter"),
-    bookstoreRouter: require("./BookstoreRouter")
+    bookRouter: require("./BookRouter")
 }

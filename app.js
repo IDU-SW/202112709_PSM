@@ -7,7 +7,7 @@ const routers = require("./router")
 
 app.use(express.json());
 app.use("/", routers.indexRouter);
-app.use("/booksRouter", routers.bookstoreRouter);
+app.use("/book", routers.bookRouter);
 
 initDB()
     .then( _ => app.listen(conf.PORT, () => console.log(`Starting ${conf.HOST} at ${conf.PORT} port.`)) )
