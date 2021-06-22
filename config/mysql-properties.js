@@ -8,14 +8,14 @@
  * @constant DB Database 이름
  */
 
-const HOST = "";
+ const HOST = "";
 
-const PORT = "";
-
-const ID = "";
-
-const PW = "";
-
-const DB = "";
-
-module.exports = { HOST, PORT, ID, PW, DB };
+ const PORT = "";
+ 
+ const ID = "";
+ 
+ const PW = "";
+ 
+ const DB = "";
+ 
+ module.exports = { HOST, PORT, ID, PW, DB };

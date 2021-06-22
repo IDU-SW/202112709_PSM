@@ -13,7 +13,7 @@ const HOST = "localhost";
 const PORT = 3000;
 
 const SESSION = _session({
-    secret: 'Secret Key',
+    secret: "Secret-Key&^%$@",
     resave: false,
     saveUninitialized: true
  });
