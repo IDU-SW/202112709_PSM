@@ -69,49 +69,49 @@
   <tbody>
     <tr>
       <td>GET</td>
-      <td>/login</td>
+      <td>/admin/login</td>
       <td>관리자 로그인 화면</td>
       <td>READ</td>
     </tr>
     <tr>
       <td>GET</td>
-      <td>/signup</td>
+      <td>/admin/signup</td>
       <td>관리자 가입 화면</td>
       <td>READ</td>
     </tr>
     <tr>
       <td>GET</td>
-      <td>/books</td>
+      <td>/admin/books</td>
       <td>책 전체 보기</td>
       <td>READ</td>
     </tr>
     <tr>
       <td>POST</td>
-      <td>/login</td>
+      <td>/admin/login</td>
       <td>관리자 로그인 요청</td>
       <td>READ</td>
     </tr>
     <tr>
       <td>POST</td>
-      <td>/signup</td>
+      <td>/admin/signup</td>
       <td>관리자 가입 요청</td>
       <td>CREATE</td>
     </tr>
     <tr>
       <td>POST</td>
-      <td>/create/book</td>
+      <td>/admin/create/book</td>
       <td>책 추가(로그인 후)</td>
       <td>CREATE</td>
     </tr>
     <tr>
       <td>PUT</td>
-      <td>/update/book</td>
+      <td>/admin/update/book</td>
       <td>책 수정(로그인 후)</td>
       <td>UPDATE</td>
     </tr>
     <tr>
       <td>PUT</td>
-      <td>/delete/book/:id</td>
+      <td>/admin/delete/book/:id</td>
       <td>책 삭제(로그인 후)</td>
       <td>DELETE</td>
     </tr>
